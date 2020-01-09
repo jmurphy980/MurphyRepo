@@ -63,24 +63,24 @@ def structuredLineGeneration():
             if y < 0:
                 ydir = 1
                 y += 2
-                print("y less than 0")
+                print("y < than 0")
             
                 
             elif y > 800:
                 ydir = -1 
                 y -= 2
-                print("y greater than 800")
+                print("y > than 800")
             
                 
             elif x < 0:
                 xdir = .9
                 x += 2
-                print("x less than 0")
+                print("x < than 0")
             
             elif x > 1000:
                 xdir = -.9
                 x -= 2
-                print("x greater than 1000")
+                print("x > than 1000")
            
         #print("x",x,"y",y)
     
